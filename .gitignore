@@ -67,3 +67,17 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Others
+*.aps
+ipch
+Browse.VC.db
+*.VC.db
+FileContentIndex
+fileList.bin
+out
+dist
+node_modules
+CopilotIndices
+/Project/bin/
+

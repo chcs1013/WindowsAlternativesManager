@@ -1,0 +1,16 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Client/Client.vcxproj" Id="40a217ad-0232-4406-b95b-7e55670b18de">
+    <BuildDependency Project="libaltm/libaltm.vcxproj" />
+  </Project>
+  <Project Path="libaltm/libaltm.vcxproj" Id="5bdf7c55-9a11-4f7d-9f64-46e80e68dc81" />
+  <Project Path="Wrapper-Windowless/Wrapper-Windowless.vcxproj" Id="3d9e9977-6a59-4f9a-b360-341528dce2f4">
+    <BuildDependency Project="libaltm/libaltm.vcxproj" />
+  </Project>
+  <Project Path="Wrapper/Wrapper.vcxproj" Id="9e379aa4-cf88-4106-aafd-b18077a3c711">
+    <BuildDependency Project="libaltm/libaltm.vcxproj" />
+  </Project>
+</Solution>
